@@ -7,7 +7,7 @@ Quando("eu preencho os dados referente ao Agendamento de Consultas") do
   AgendarConsultaMedicoPage.new.preencherDadosAgendamento()
 end
 
-Quando("preencho os dados referente ao Médico") do
+Quando("preencho os dados referente à especialidade") do
   AgendarConsultaMedicoPage.new.preencheDadosEspecialidade()
 end
 

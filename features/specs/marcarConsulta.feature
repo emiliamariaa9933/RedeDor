@@ -14,7 +14,7 @@ Contexto: Acessar Marcar Consulta
 Cenario: Agendar Consulta
 
     Quando eu preencho os dados referente ao Agendamento de Consultas
-    E preencho os dados referente ao Médico
+    E preencho os dados referente à especialidade
     E preencho os dados referente ao Local
     E preencho os dados referente ao Paciente
     E preencho os dados referente ao Convênio/Plano
