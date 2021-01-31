@@ -6,6 +6,7 @@ class DadosInvalidosPage
   end
 
   def verificarDataInvalida()
+    $logger.info("Verificando a mensagem de data inválida")
     $agendar.preencherDadosAgendamento
     $agendar.preencheDadosEspecialidade
     $agendar.preencherLocalAtendimento
