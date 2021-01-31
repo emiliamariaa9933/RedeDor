@@ -6,11 +6,12 @@ class DadosInvalidosPage
   end
 
   def verificarDataInvalida()
-    $logger.info("Verificando a mensagem de data inválida")
+    sleep 1
     $agendar.preencherDadosAgendamento
     $agendar.preencheDadosEspecialidade
     $agendar.preencherLocalAtendimento
     sleep 2
+    $logger.info("Verificando a mensagem de data inválida")
     find('input[placeholder="DD/MM/AAAA"]').set("30/02/2021")
     find('button[class="rededor-button"]').click
     sleep 3
